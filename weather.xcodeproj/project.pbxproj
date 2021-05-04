@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8413443B2641D394000EDFBF /* ImportNetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413443A2641D394000EDFBF /* ImportNetworkData.swift */; };
 		84E46EBB2641B57300DA44A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E46EBA2641B57300DA44A4 /* AppDelegate.swift */; };
 		84E46EBD2641B57300DA44A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E46EBC2641B57300DA44A4 /* SceneDelegate.swift */; };
 		84E46EBF2641B57300DA44A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E46EBE2641B57300DA44A4 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8413443A2641D394000EDFBF /* ImportNetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportNetworkData.swift; sourceTree = "<group>"; };
 		84E46EB72641B57300DA44A4 /* weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E46EBA2641B57300DA44A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84E46EBC2641B57300DA44A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				84EA72832641B9A6004F77B2 /* Support */,
 				84EA72852641B9CC004F77B2 /* VC */,
 				84EA72862641B9EA004F77B2 /* Storyboards */,
+				84EA72882641BA1D004F77B2 /* NetworkManagers */,
 				84EA72872641B9FD004F77B2 /* Media */,
 			);
 			path = weather;
@@ -95,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				84E46EC32641B57300DA44A4 /* Assets.xcassets */,
-				84EA72882641BA1D004F77B2 /* NetworkManagers */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -103,6 +105,7 @@
 		84EA72882641BA1D004F77B2 /* NetworkManagers */ = {
 			isa = PBXGroup;
 			children = (
+				8413443A2641D394000EDFBF /* ImportNetworkData.swift */,
 			);
 			path = NetworkManagers;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E46EBF2641B57300DA44A4 /* ViewController.swift in Sources */,
+				8413443B2641D394000EDFBF /* ImportNetworkData.swift in Sources */,
 				84E46EBB2641B57300DA44A4 /* AppDelegate.swift in Sources */,
 				84E46EBD2641B57300DA44A4 /* SceneDelegate.swift in Sources */,
 			);
