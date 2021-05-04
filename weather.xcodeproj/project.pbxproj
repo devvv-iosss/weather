@@ -56,15 +56,55 @@
 		84E46EB92641B57300DA44A4 /* weather */ = {
 			isa = PBXGroup;
 			children = (
-				84E46EBA2641B57300DA44A4 /* AppDelegate.swift */,
-				84E46EBC2641B57300DA44A4 /* SceneDelegate.swift */,
-				84E46EBE2641B57300DA44A4 /* ViewController.swift */,
-				84E46EC02641B57300DA44A4 /* Main.storyboard */,
-				84E46EC32641B57300DA44A4 /* Assets.xcassets */,
-				84E46EC52641B57300DA44A4 /* LaunchScreen.storyboard */,
-				84E46EC82641B57300DA44A4 /* Info.plist */,
+				84EA72832641B9A6004F77B2 /* Support */,
+				84EA72852641B9CC004F77B2 /* VC */,
+				84EA72862641B9EA004F77B2 /* Storyboards */,
+				84EA72872641B9FD004F77B2 /* Media */,
 			);
 			path = weather;
+			sourceTree = "<group>";
+		};
+		84EA72832641B9A6004F77B2 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				84E46EBA2641B57300DA44A4 /* AppDelegate.swift */,
+				84E46EBC2641B57300DA44A4 /* SceneDelegate.swift */,
+				84E46EC82641B57300DA44A4 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		84EA72852641B9CC004F77B2 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				84E46EBE2641B57300DA44A4 /* ViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		84EA72862641B9EA004F77B2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				84E46EC02641B57300DA44A4 /* Main.storyboard */,
+				84E46EC52641B57300DA44A4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		84EA72872641B9FD004F77B2 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				84E46EC32641B57300DA44A4 /* Assets.xcassets */,
+				84EA72882641BA1D004F77B2 /* NetworkManagers */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		84EA72882641BA1D004F77B2 /* NetworkManagers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkManagers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-syleimanov-project1.weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-syleimanov-project1.weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
